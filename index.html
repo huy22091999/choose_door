@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css"  href="site.css" >
+    <script rel="script" src="javaS.js" ></script>
+    <title>Choose Door</title>
+</head>
+<body>
+<div id="logo">
+    <img class="title-logo" src="images/logo.svg">
+</div>
+<div id="menus">
+    <center>
+        <ul>
+            <li><img src="images/star.svg"></li>
+            <li> <p>Instruction</p></li>
+            <li><img src="images/star.svg"></li>
+        </ul>
+    </center>
+</div>
+
+<div id="intro">
+    <table>
+        <tr>
+            <td><span class="so"> 1</span></td>
+            <td><span class="chu">Hiding behind one of these door is the ChoreBot</span></td>
+        </tr>
+        <tr>
+            <td><span class="so"> 2</span></td>
+            <td><span class="chu">Your mission is to open all of the doors without running into the ChoreBot</span></td>
+        </tr>
+        <tr>
+            <td><span class="so"> 3</span></td>
+            <td><span class="chu">If you manage to avoid the ChoreBot until the very last door, you win!</span></td>
+        </tr>
+        <tr>
+            <td><span class="so"> 4</span></td>
+            <td><span class="chu">See if you can score a winning streak!</span></td>
+        </tr>
+    </table>
+</div>
+<div id="door-img">
+    <li><img id="i1" src="images/closed_door.svg" > </li>
+    <li><img id="i2" src="images/closed_door.svg" ></li>
+    <li><img id="i3" src="images/closed_door.svg" ></li>
+</div>
+<div id="btn" >
+    <button id="sb" onclick="reSet();return false;">Good luck</button>
+    <li>
+            <span class="chuP" >Current streak:</span>
+            <span class="chuP" >Best streak:</span>
+    </li>
+    <li>
+            <div id="cp" class="sPoint">0</div>
+            <div id="bp" class="sPoint">0</div>
+    </li>
+
+</div>
+<script src="javaS.js">
+
+</script>
+
+</body>
+</html>
